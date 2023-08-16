@@ -1,0 +1,25 @@
+.header {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-title {
+    text-align: center;
+}
+
+.header-buttons-container {
+    display: grid;
+    grid-template-columns: max-content max-content max-content;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-buttons-container > button {
+    width: fit-content;
+}
