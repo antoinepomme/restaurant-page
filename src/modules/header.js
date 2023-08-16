@@ -4,7 +4,7 @@ export default function header() {
 
     const title = document.createElement("h1");
     title.classList.add("header-title");
-    title.textContent = "Capri"
+    title.textContent = "Pizza Capri"
     pageHeader.appendChild(title);
 
     const buttonsContainer = document.createElement("div");

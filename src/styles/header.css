@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Italianno';
+    src: url('../assets/fonts/Italianno-Regular.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
 .header {
     background-color: rgba(0, 0, 0, 0.75);
     display: grid;
@@ -8,7 +15,9 @@
 }
 
 .header-title {
+    font-family: Italianno;
     text-align: center;
+    font-size: 8rem;
 }
 
 .header-buttons-container {
@@ -17,8 +26,18 @@
     grid-template-rows: 1fr;
     justify-content: center;
     align-items: center;
+    gap: 2rem;
 }
 
 .header-buttons-container > button {
     width: fit-content;
+    background: none;
+    border: none;
+    color: inherit;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.header-buttons-container > button:hover {
+    cursor: pointer;
 }
